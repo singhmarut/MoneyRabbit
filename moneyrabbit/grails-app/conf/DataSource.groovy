@@ -32,7 +32,6 @@ environments {
             url = "jdbc:mysql://localhost:3306/moneyrabbit"
             username = "root"
             password = "1ruwHjQr25DioerV"
-            pooled = true
             /*properties {
                maxActive = -1
                minEvictableIdleTimeMillis=1800000
