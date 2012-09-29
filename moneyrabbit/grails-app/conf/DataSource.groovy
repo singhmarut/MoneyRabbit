@@ -33,7 +33,7 @@ environments {
             username = "root"
             password = "1ruwHjQr25DioerV"
             pooled = true
-            properties {
+            /*properties {
                maxActive = -1
                minEvictableIdleTimeMillis=1800000
                timeBetweenEvictionRunsMillis=1800000
@@ -42,7 +42,7 @@ environments {
                testWhileIdle=true
                testOnReturn=true
                validationQuery="SELECT 1"
-            }
+            }*/
         }
     }
 }

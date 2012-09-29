@@ -182,10 +182,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+            <state line="34" column="18" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.6497623">
               <folding />
             </state>
           </provider>
@@ -211,10 +211,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="44" selection-start="367" selection-end="367" vertical-scroll-proportion="0.20481928">
+            <state line="25" column="62" selection-start="983" selection-end="983" vertical-scroll-proportion="1.7">
               <folding />
             </state>
           </provider>
@@ -244,8 +244,8 @@
         <option value="$PROJECT_DIR$/web-app/css/theme.css" />
         <option value="$PROJECT_DIR$/web-app/css/bodyWithoutbg.css" />
         <option value="$PROJECT_DIR$/grails-app/views/main/sign-up.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
       </list>
     </option>
   </component>
@@ -1038,13 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="42" selection-start="1761" selection-end="1762" vertical-scroll-proportion="-8.84">
@@ -1063,7 +1056,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="367" selection-end="367" vertical-scroll-proportion="0.20481928">
+        <state line="25" column="62" selection-start="983" selection-end="983" vertical-scroll-proportion="1.7">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="18" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.6497623">
           <folding />
         </state>
       </provider>
