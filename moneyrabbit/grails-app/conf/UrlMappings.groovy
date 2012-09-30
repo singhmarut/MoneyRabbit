@@ -12,10 +12,10 @@ class UrlMappings {
             action = 'index'
         }
 
-		"/"(controller: "home", action: "index")
-        "/home/$product?"(controller: "home", action: ""){
+		/*"/"(controller: "home")
+        "/home/"(controller: "home", action: ""){
 
-        }
+        }*/
 
         "/TravelInsurance/suggestions"(controller: "travelInsurance", action: "index")
 

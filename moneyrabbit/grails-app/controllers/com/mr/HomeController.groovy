@@ -6,10 +6,12 @@ class HomeController {
         render (view: "home")
     }
 
+    def showContactUs(){
+        render(view: "contactUs")
+    }
+
     def redirectToProductController(){
 
     }
-
     static layout = "main"
-
 }

@@ -11,7 +11,7 @@
         <div id="container-main">
             <h2>Create account with 3S Insurance</h2>
 
-            <p class="breadcrum"><a href="#">Home</a> / <span>Sign Up</span></p>
+            <p class="breadcrum"><a href="${createLink(controller: 'home')}">Home</a> / <span>Sign Up</span></p>
 
             <div style="width:990px; height:auto; margin:auto;">
 
