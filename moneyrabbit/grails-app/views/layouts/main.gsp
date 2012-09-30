@@ -11,37 +11,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     %{--<title><g:layoutTitle default="Grails"/></title>--}%
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    %{--<link rel="stylesheet" href="${resource(dir: 'css', file: 'theme.css')}" type="text/css">--}%
-    %{--<g:if test="${groovyPageFileName.equals("home")}">
-        <link rel="stylesheet" href="${resource(dir: 'css', file: 'bodywithbg.css')}" type="text/css">
-    </g:if>
-    <g:else>
-        <link rel="stylesheet" href="${resource(dir: 'css', file: 'bodyWithoutbg.css')}" type="text/css">
-    </g:else>
---}%
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'theme.css')}" type="text/css">
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'core.css')}" type="text/css" media="screen">
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'lgray.css')}" type="text/css" media="screen">
     <!--[if (gt IE 9)|!(IE)]><!-->
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'slide.css')}" type="text/css" media="screen">
+
     <div class="wrap">
         <!--header start-->
         <div class="header-top">
             <!--logo start-->
-            <div class="logo"><img src="${resource(dir: 'images', file: 'logo.png')}"  alt=""/></div>
+            <div class="logo"><img src="${resource(dir: 'images', file: 'logo.png')}" alt=""/></div>
             <!--logo close-->
             <!--header-right start-->
             <div class="header-right">
                 <!--header--top-right-start-->
                 <div class="header-top-right">
-                    <p class="mail">Request a free consultation </p>
+                    <p class="mail">Request a free consultation</p>
+
                     <p class="call">Call: 732-228-7674</p>
                 </div>
                 <!--header--top-right-close-->
                 <!--header--middle=right-start-->
                 <div class="header-middle-right">
                     <g:form controller="main">
-                    <g:actionSubmit class="button-signup" id="" value="Sign up" name="" action="showSignup"/>
-                    <g:actionSubmit class="button-login" id="" value="Login" name="" />
+                        <g:actionSubmit class="button-signup" id="" value="Sign up" name="" action="showSignup"/>
+                        <g:actionSubmit class="button-login" id="" value="Login" name=""/>
                     </g:form>
                 </div>
             </div>
@@ -63,16 +58,16 @@
             </div>
             <!--navigation close-->
         </div>
-    <g:layoutHead/>
-    <g:javascript library="application"/>
-    <r:layoutResources/>
+        <g:layoutHead/>
+        <g:javascript library="application"/>
+        <r:layoutResources/>
 </head>
 
 <body class="body">
 <g:layoutBody/>
 </body>
 
-<r:layoutResources />
+<r:layoutResources/>
 </html>
 %{--
 </g:applyLayout>--}%
